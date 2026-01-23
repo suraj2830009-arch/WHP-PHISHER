@@ -24,7 +24,7 @@ Quick start and setup for kali linux
     
     chmod  +x *
 
-    python3 WHP-PHISHER.py
+    python3 WHP-Phisher.py
 
 Quick start and setup for termux
 -----------
@@ -38,7 +38,7 @@ Quick start and setup for termux
     
     chmod  +x *
 
-    python WHP-PHISHER.py
+    python WHP-Phisher.py
 
 ## Contributors
 
